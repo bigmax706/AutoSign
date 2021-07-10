@@ -1,7 +1,7 @@
 name: 联通签到
 
 on:
-  workflow_dispatch: # 手动触发
+  workflow_dispatch: # 手动触发 
   schedule: # 计划任务触发
 #    - cron: '*/30 20-23,0-16 * * *' # cron表达式，Actions时区是UTC时间，所以要往前推8个小时(4-23)
     - cron: '11 1,4,8,12,16,19,22, * * *'
